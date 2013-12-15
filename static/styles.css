@@ -134,3 +134,19 @@ iframe#page {
 	text-align: center;
 	color:white;
 }
+
+#url {
+	padding-top: 24px;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+#watchedUrl {
+	width: calc(100% - 18px); /* 8px on each side + 2px for border */
+	padding: 8px;
+	font-size: 16pt;
+	text-align: center;
+}
