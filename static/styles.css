@@ -135,7 +135,10 @@ iframe#page {
 	color:white;
 }
 
+
+/* ---- text box --- */
 #url {
+	position: relative;
 	padding-top: 24px;
 	width: 300px;
 	margin: 0 auto;
@@ -145,8 +148,18 @@ iframe#page {
 }
 
 #watchedUrl {
-	width: calc(100% - 18px); /* 8px on each side + 2px for border */
+	display: inline-block;
+	width: calc(70% - 18px);
 	padding: 8px;
+	font-size: 24px;
+}
+
+#url button {
+	display: inline-block;
+	position: relative;
 	font-size: 16pt;
-	text-align: center;
+	font-weight: bold;
+	width: calc(20% - 18px);
+	height: 48px;
+	top: -1px;
 }
