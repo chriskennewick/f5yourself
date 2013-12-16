@@ -147,6 +147,11 @@ iframe#page {
 	font-weight: bold;
 }
 
+#url label {
+	float:left;
+	margin-left:10px;
+}
+
 #watchedUrl {
 	display: inline-block;
 	width: calc(70% - 18px);
@@ -159,7 +164,10 @@ iframe#page {
 	position: relative;
 	font-size: 16pt;
 	font-weight: bold;
-	width: calc(20% - 18px);
 	height: 48px;
 	top: -1px;
+	cursor:pointer;
+	border:1px solid blue;
+	background:blue;
+	color:#fff;
 }
